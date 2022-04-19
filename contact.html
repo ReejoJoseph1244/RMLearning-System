@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>RM Learning system</title>
+        <link rel="stylesheet" href="frontcss.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            #contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('/bony/img/contact.jpg') no-repeat center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+.submit{
+    background-color:blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 500px;
+}
+        </style>
+
+
+    </head>
+
+    <body>
+        <div id="header" class="div">   <!--head--> 
+            <table>
+            <tr>
+                <td><h1 style="margin-top: -4px;"><b> RM <sup> Learning system</sup><b> :<em>#1 Website for Learning</em></h1></td>
+                <td>
+                <div class="socialicons">
+                    <img src="fb_icon.png">
+                    <img src="insta_icon.png">
+                    <img src="twitter_icon.png">
+                </div>
+                </td>
+                <td><button class="login" onclick="document.location='login_page.html'">Login</button></td>
+
+            </tr>
+            </table>     <!--head closes--> 
+        </div>
+        <div id="bar">    <!--head bar--> 
+            <div class="div" style="float: left;">
+                <img src="logo.jpg" height="62px">
+            </div>
+            <div style="margin-left: 695px;">
+                <table>
+                    <td><button class="Button" onclick="document.location='home.html'">Home</button> </td> <td> <button class="Button" onclick="document.location='videos.html'">Videos</button> </td> <td><button class="Button" onclick="document.location='videos.html'">Tutors</button> </td> <td><button class="Button" onclick="document.location='videos.html'">Test Yourself</button> </td> <td><button class="Button" onclick="document.location='videos.html'">Contact</button> </td>
+                </table>
+
+            </div>
+
+            
+        </div>          <!--head bar closes-->
+
+        <div id="contact">
+            <h1 style="text-align: center;">Contact Us</h1>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Email</label>
+                        <input type="email" name="name" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Phone Number</label>
+                        <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="6"></textarea>
+                    </div>
+                    <button   class="submit" onclick="document.location='frontpage.html'">Submit</button><br>
+                </form>
+            </div>
+        </div>
+
+
+
+    </body>
+</html>

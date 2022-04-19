@@ -1,0 +1,149 @@
+#header{
+    height: 50px;;
+    color:purple;
+}
+.div{
+    position: relative;
+    right: 8px;
+    
+}
+
+.socialicons{
+    margin: -25px 2px 1px 280px;
+}
+.login{
+    background-color:#4CAF50; /* Green  */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: -25px 2px 4px 180px;
+    border-radius: 20px;
+
+}
+.button {
+    background-color:#4CAF50; /* Green  */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
+  button:hover{background-color:white;color: black;}
+ #bar{
+     background-color:#4CAF50;
+     margin-right: -10px;
+
+    
+ }
+.subjectbuttons{
+    background-color:powderblue; /* Green  */
+    border: none;
+    color: blueviolet;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px -35px;
+    cursor: pointer;
+    width: 180px;
+    
+    
+ }
+
+ .gridcontainer{
+     display: grid;
+     grid-template-areas: 
+     'name info info info info info  feed'
+     'name cont cont cont cont cont feed'
+     'pg pg pg pg pg pg pg'
+     'faq faq faq faq faq faq faq';
+    
+
+ }
+
+ .subjectnames{
+     margin-left: -5px;
+     grid-area: name;
+     width: 200px;
+     background-color: cornsilk;
+     
+     border-right: 5px solid blueviolet;
+     border-bottom:  5px solid blueviolet;
+     height: 850px;
+ }
+
+ .content{
+     margin-left: 15px;
+ }
+
+.feedback{
+    background-color:cornsilk;
+    height: 850px;
+    width: 200px;
+    margin-right: -9px;
+    border-left: 5px solid blueviolet;
+    border-bottom:  5px solid blueviolet;
+    padding-left: 10px;
+    line-height: 10px;
+}
+.submit{
+    background-color:blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.FAQ{
+    background-color: cornsilk;
+    border-top: 5px solid blueviolet;
+    border-left: 5px solid blueviolet;
+    border-right: 5px solid blueviolet;
+   
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+.checked {
+    color: orange;
+ 
+  }
+
+ .subjectinfo{
+     grid-area: info;
+
+ }
+ .content{
+     grid-area: cont;
+ }
+ .feedback{
+     grid-area: feed;
+ }
+ .pagechange{
+     grid-area: pg;
+ }
+ .FAQ{
+     grid-area: faq;
+ }
+
+
+  
